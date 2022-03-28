@@ -1,5 +1,7 @@
 services:
   ubuntu:
+  ubuntu2:
+  ubuntu3:
     build: .
     ports:
       - 80:80
