@@ -1,5 +1,5 @@
-build:
- ports:
-   - 80:80
-  docker:
-    web: Dockerfile
+services:
+  ubuntu:
+    build: .
+    ports:
+      - 80:80
