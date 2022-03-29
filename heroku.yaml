@@ -1,5 +1,5 @@
-services:
-  areyouok:
-    build: .
+build:
+  docker:
+    web: Dockerfile
     ports:
       - 80:80
