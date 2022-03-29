@@ -1,3 +1,5 @@
 build:
+ ports:
+   - 80:80
   docker:
     web: Dockerfile
